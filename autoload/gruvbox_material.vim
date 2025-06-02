@@ -83,8 +83,8 @@ function! gruvbox_material#get_palette(background, foreground, colors_override) 
   elseif a:background ==# 'medium' "{{{
     if &background ==# 'dark'
       let palette1 = {
-            \ 'bg_dim':           ['#1b1b1b',   '233'],
-            \ 'bg0':              ['#282828',   '235'],
+            \ 'bg_dim':           ['#121212',   '233'],
+            \ 'bg0':              ['#1b1b1b',   '235'],
             \ 'bg1':              ['#32302f',   '236'],
             \ 'bg2':              ['#32302f',   '236'],
             \ 'bg3':              ['#45403d',   '237'],
